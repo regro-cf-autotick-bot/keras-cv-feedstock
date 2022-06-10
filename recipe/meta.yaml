@@ -1,5 +1,5 @@
 {% set name = "keras-cv" %}
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/keras-cv-{{ version }}.tar.gz
-  sha256: 2eb4bbed2c83773eb1ada4b7da4b44de5343f9e6ff9e8e9fbd9666c48fa57f6e
+  sha256: aabd3d68760ec4da09b5ee72019b7288866cb5e94dc1495c1a888e05642ddc35
 
 build:
   noarch: python
