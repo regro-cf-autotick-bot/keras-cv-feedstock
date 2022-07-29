@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -22,15 +22,11 @@ requirements:
     - absl-py
     - packaging
     - python >=3.7
-  run_constrained:
     - tensorflow >=2.9.0
 
 test:
-  # imports would only work with tensorflow present
-  # but since depends on 2.9.0 (still not available on cf)
-  # will activate this import test later
-  #imports:
-    #- keras_cv
+  imports:
+    - keras_cv
   commands:
     - pip check
   requires:
