@@ -1,5 +1,5 @@
 {% set name = "keras-cv" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/keras-cv-{{ version }}.tar.gz
-  sha256: 23691320109f3e6fa745e60b023eb0deec101559ed92dc023d568a71613dc70e
+  sha256: dd0570561d1cc1eaa61a1f245e2da9d8ef673631e1d0517db554cb8e526212db
 
 build:
   noarch: python
@@ -24,6 +24,7 @@ requirements:
     - python >=3.7
     - tensorflow >=2.9.0
     - tensorflow-datasets
+    - regex
 
 test:
   imports:
