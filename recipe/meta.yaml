@@ -24,6 +24,7 @@ requirements:
     - python >=3.7
     - tensorflow >=2.9.0
     - tensorflow-datasets
+    - regex
 
 test:
   imports:
