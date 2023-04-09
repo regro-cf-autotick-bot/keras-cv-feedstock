@@ -19,10 +19,10 @@ requirements:
     - pip
     - python >=3.7
   run:
-    - absl-py >=1
+    - absl-py
     - packaging
     - python >=3.7
-    - tensorflow >=2.9.0
+    - tensorflow >=2.11.0
     - tensorflow-datasets
     - regex
 
