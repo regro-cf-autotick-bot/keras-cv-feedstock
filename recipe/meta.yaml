@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/keras-team/keras-cv/archive/refs/tags/v0.4.2.tar.gz
+  url: https://github.com/keras-team/keras-cv/archive/refs/tags/v{{ version }}.tar.gz
   sha256: ff495f29a6c4d5f353d587290c3b745121fa3b61f1e7a8b55178f4b339407de3
 
 build:
