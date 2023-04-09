@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/5e/3b/b430a70b14f593f6c9a371285af3b9c7c6e4b024b8a999c6dccfab959d5f/keras_cv-0.4.2-py3-none-any.whl
-  sha256: 74779a9177af1e94729e9f4eaabc0339fe99e1d8b6b20dd03c55ed5b38588868
+  url: https://github.com/keras-team/keras-cv/archive/refs/tags/v0.4.2.tar.gz
+  sha256: ff495f29a6c4d5f353d587290c3b745121fa3b61f1e7a8b55178f4b339407de3
 
 build:
   noarch: python
