@@ -1,5 +1,5 @@
 {% set name = "keras-cv" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/keras-team/keras-cv/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b190134902fb90e069329ab6cc29f61813096feeb0e7e31e81ff061fc2bfeb16
+  sha256: 37276036b77be2aa7aa5df8470a10db309058010baf5d3dfbc70b082a336c474
 
 build:
   noarch: python
