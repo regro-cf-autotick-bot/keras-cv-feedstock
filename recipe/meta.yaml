@@ -25,7 +25,8 @@ requirements:
     - tensorflow >=2.11.0
     - tensorflow-datasets
     - regex
-
+    - keras-core
+    
 test:
   imports:
     - keras_cv
