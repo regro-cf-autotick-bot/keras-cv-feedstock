@@ -1,5 +1,5 @@
 {% set name = "keras-cv" %}
-{% set version = "0.6.3" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/keras-team/keras-cv/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 34f790340343776a423ff5f1d155fb7e95e4f8a17c8916677a6170be1e507780
+  sha256: cb8b537415356f32a99cb975f8d0958a0a771643dd983bdf5afdc98431e211c5
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
     - tensorflow-datasets
     - regex
     - keras-core
-    
+
 test:
   imports:
     - keras_cv
