@@ -26,6 +26,7 @@ requirements:
     - tensorflow-datasets
     - regex
     - keras-core
+    - kagglehub
 
 test:
   imports:
