@@ -12,16 +12,16 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python {{ python_min }}
   run:
     - absl-py
     - packaging
-    - python >=3.7
+    - python >={{ python_min }}
     - tensorflow >=2.11.0
     - tensorflow-datasets
     - regex
@@ -35,6 +35,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/keras-team/keras-cv
